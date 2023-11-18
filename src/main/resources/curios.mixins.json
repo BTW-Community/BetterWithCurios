@@ -4,22 +4,10 @@
   "package": "top.theillusivec4.curios.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "PlayerManagerMixin",
-    "LivingEntityMixin",
-    "ExperienceOrbEntityMixin",
-    "IScreenHandlerAccessor",
-    "ISimpleInventoryAccessor",
-    "HandledScreenMixin"
   ],
   "client": [
-    "InventoryScreenMixin",
-    "IInventoryScreenAccessor",
-    "PlayerEntityRendererMixin",
-    "ItemStackMixin",
-    "IHandledScreenAccessor",
-    "CreativeScreenMixin"
+
   ],
-  "server": [],
   "injectors": {
     "defaultRequire": 1
   }

@@ -2,43 +2,32 @@
   "schemaVersion": 1,
   "id": "curios",
   "version": "${version}",
+
   "name": "Curios API",
   "description": "A flexible and expandable accessory/equipment API for users and developers.",
   "authors": [
-    "C4"
+    "C4", "CyprusG"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/curios",
-    "sources": "https://github.com/TheIllusiveC4/Curios",
-    "issues": "https://github.com/TheIllusiveC4/Curios/issues"
+    "homepage": "",
+    "sources": "https://github.com/BTW-Community/BetterWithCurios/",
+    "issues": "https://github.com/BTW-Community/BetterWithCurios/issues"
   },
+
   "license": "LGPLv3.0",
   "icon": "assets/curios/curios_icon.png",
+
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "top.theillusivec4.curios.common.CuriosCommon"
-    ],
-    "client": [
-      "top.theillusivec4.curios.client.CuriosClient"
-    ],
-    "rei_plugins": [
-      "top.theillusivec4.curios.integration.CuriosReiPlugin"
-    ]
   },
   "mixins": [
     "curios.mixins.json"
   ],
-  "custom": {
-    "cardinal-components": [
-      "curios:item",
-      "curios:item_render",
-      "curios:inventory"
-    ]
-  },
+
   "depends": {
-    "fabricloader": ">=0.10.5",
-    "minecraft": "1.16.x",
-    "fabric": ">=0.16.0"
+    "fabricloader": ">=0.7.4"
+  },
+  "suggests": {
+    "flamingo": "*"
   }
 }
